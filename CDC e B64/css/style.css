@@ -1,0 +1,35 @@
+
+*{
+  margin-top: 10px;
+  }
+  
+  body{
+  text-align: left;
+  background-color: #141414;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  font-family: "Roboto", sans-serif;
+  width: 500px;
+  margin: 0 auto;
+  color: #E0E0E0;
+  background-image: url(fundo.jpg);
+  }
+  
+  .botao-estilo{
+    display: inline-block;
+    padding: 10px 5px;
+    background: #FFF;
+    border-radius: 10px;
+    text-transform: uppercase;
+    color: #000000;
+    font: 600 1.125rem/1.35 "Poppins", sans-serif;
+    max-width: max-content;
+    border: none;
+    cursor: pointer;
+  }
+  
+  
+  .botao-estilo:hover {
+    background: #DAA520;
+  }
